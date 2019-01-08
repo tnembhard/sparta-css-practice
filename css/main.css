@@ -1,0 +1,31 @@
+body{
+    background-color: azure;
+}
+.container{
+    display:flex;
+    align-content: flex-start;
+    flex-wrap: row wrap;
+}
+.head1, .foot1{
+    border:4px grey solid;
+    padding:10px;
+    text-align: center;
+    margin: 10px;
+}
+.box1, .box2{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    height: 400px;
+    border:4px grey solid;
+    padding:5px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.box1{
+    background-color: darkgrey;
+}
+.box2{
+    background-color: lightgrey;
+}
